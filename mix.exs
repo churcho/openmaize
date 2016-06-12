@@ -29,7 +29,7 @@ defmodule Openmaize.Mixfile do
       {:comeonin, "~> 2.4"},
       {:openmaize_jwt, git: "https://github.com/riverrun/openmaizejwt.git"},
       #{:openmaize_jwt, "~> 0.9", optional: true},
-      {:ecto, "~> 1.1", optional: true},
+      {:ecto, "~> 2.0.0-rc.5", optional: true},
       {:postgrex, "~> 0.11", optional: true},
       {:not_qwerty123, "~> 1.1", optional: true},
       {:earmark, "~> 0.2", only: :dev},
